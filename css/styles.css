@@ -1,10 +1,16 @@
+:root {
 
+}
+
+@font-face {
+    font-family: Freight;
+    src: url(res\fonts\FreightBigProMedium-Regular.woff);
+}
 
 html {
     font-family: Mulish, Helvetica, sans-serif;
 }
 
-@font-face {
-    font-family: Freight;
-    src: url(res\fonts\FreightBigProMedium-Regular.ttf);
-  }
+nav {
+    font-family: Freight, 'Times New Roman', Times, serif;
+}
