@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: Freight;
-    src: url("res/fonts/FreightBigProMedium-Regular.woff") format("woff");
+    src: url("../res/fonts/FreightBigProMedium-Regular.woff") format("woff");
 }
 
 
@@ -29,7 +29,7 @@ header {
 }
 
 nav {
-    font-family: Freight, sans-serif;
+    font-family: Freight, 'Times New Roman', Times, serif;
     display: flex;
     gap: 40px;
     font-size: 24px;
