@@ -2,15 +2,45 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap');
+
 @font-face {
     font-family: Freight;
-    src: url(res\fonts\FreightBigProMedium-Regular.woff);
+    src: url("res/fonts/FreightBigProMedium-Regular.woff") format("woff");
 }
+
 
 html {
     font-family: Mulish, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    font-family: Mulish, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 35px 130px;
+    position: sticky;
 }
 
 nav {
-    font-family: Freight, 'Times New Roman', Times, serif;
+    font-family: Freight, sans-serif;
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: black;
 }
