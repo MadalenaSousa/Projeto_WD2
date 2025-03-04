@@ -19,6 +19,9 @@ body {
     font-family: Mulish, Helvetica, sans-serif;
 }
 
+
+/* HEADER */
+
 header {
     display: flex;
     align-items: center;
@@ -43,4 +46,22 @@ nav a {
 nav a:hover {
     text-decoration: underline;
     color: black;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 65px 80px;
+    display: flex;
+    gap: 80px;
+}
+
+.footer-pages {
+    display: flex;
+}
+
+footer h2, footer h4 {
+    font-family: Freight, 'Times New Roman', Times, serif;
 }
