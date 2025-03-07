@@ -93,7 +93,7 @@ section {
     padding: 120px 240px;
 }
 
-main section:first-child > div {
+.initial-home-imagetext {
     max-width: 65vw;
     gap: 50px;
 }
