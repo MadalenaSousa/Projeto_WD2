@@ -101,3 +101,13 @@ main section:first-child > div {
 .beige-section {
     background-color: #F3F1EE;
 }
+
+.explore-items h1 {
+    font-size: 128px;
+}
+
+.explore-items h1:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    cursor: pointer;
+}
