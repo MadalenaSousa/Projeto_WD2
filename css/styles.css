@@ -19,6 +19,17 @@ body {
     font-family: Mulish, Helvetica, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Freight, 'Times New Roman', Times, serif;
+}
+
+.btn {
+    border-radius: 500px;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+}
+
 
 /* HEADER */
 
@@ -64,4 +75,24 @@ footer {
 
 footer h2, footer h4 {
     font-family: Freight, 'Times New Roman', Times, serif;
+}
+
+/* HOME */
+
+main section:first-child > div {
+    max-width: 50vw;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+main section:first-child > div h1 {
+    font-size: 100px;
+}
+
+.beige-section {
+    padding: 50px 0;
+    background-color: #F3F1EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
