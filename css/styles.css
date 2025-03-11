@@ -40,6 +40,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 96px;
 }
 
+.subsubtitle {
+    font-size: 64px;
+}
+
 a {
     text-decoration: inherit;
     color: inherit;
@@ -49,6 +53,9 @@ a:hover {
     color: inherit;
 }
 
+section {
+    padding: 120px 240px;
+}
 
 /* HEADER */
 
@@ -98,10 +105,6 @@ footer h2, footer h4 {
 
 /* HOME */
 
-section {
-    padding: 120px 240px;
-}
-
 .initial-home-imagetext {
     max-width: 65vw;
     gap: 50px;
@@ -119,4 +122,13 @@ section {
     text-decoration: underline;
     text-decoration-thickness: 5px;
     cursor: pointer;
+}
+
+/* PRODUCT DETAIL */
+
+.productdetail-label {
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 600;
+    margin-right: 10px;
 }
