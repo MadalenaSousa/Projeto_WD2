@@ -9,10 +9,9 @@
     src: url("../res/fonts/FreightBigProMedium-Regular.woff") format("woff");
 }
 
-
 html {
     font-family: Mulish, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 body {
@@ -29,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     text-transform: uppercase;
     white-space: nowrap;
-    max-height: 40px;
+    max-height: 2.5rem;
 }
 
 .btn-primary {
@@ -38,15 +37,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-    font-size: 156px;
+    font-size: 8rem;
 }
 
 .subtitle {
-    font-size: 96px;
+    font-size: 6rem;
 }
 
 .subsubtitle {
-    font-size: 64px;
+    font-size: 4rem;
 }
 
 a {
@@ -77,7 +76,7 @@ nav {
     font-family: Freight, 'Times New Roman', Times, serif;
     display: flex;
     gap: 40px;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 nav a {
@@ -112,7 +111,6 @@ footer h2, footer h4 {
 
 .initial-home-imagetext {
     max-width: 65vw;
-    gap: 50px;
 }
 
 .beige-section {
@@ -120,7 +118,7 @@ footer h2, footer h4 {
 }
 
 .explore-items h1 {
-    font-size: 128px;
+    font-size: 8rem;
 }
 
 .explore-items h1:hover {
@@ -137,3 +135,14 @@ footer h2, footer h4 {
     font-weight: 600;
     margin-right: 10px;
 }
+
+/* BREAKPOINTS */
+
+@media (max-width: 1330px) {
+
+    .smallscreen-displaynone {
+        display: none;
+    }
+
+}
+  
