@@ -57,9 +57,16 @@ a:hover {
     color: inherit;
 }
 
-section {
-    padding: 120px 240px;
+@media (min-width: 1330px) {
+    section {
+        padding: 120px 240px;
+    }
+
+    header {
+        padding: 35px 240px;
+    }
 }
+  
 
 /* HEADER */
 
@@ -68,7 +75,6 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    padding: 35px 240px;
     position: sticky;
 }
 
@@ -127,6 +133,21 @@ footer h2, footer h4 {
     cursor: pointer;
 }
 
+.hero-img, .collection-img, .popular-img, .explore-img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .explore-items h1 {
+      font-size: 4rem;
+    }
+
+    .explore-items {
+        text-align: center;
+    }
+}
+
 /* PRODUCT DETAIL */
 
 .productdetail-label {
@@ -145,4 +166,3 @@ footer h2, footer h4 {
     }
 
 }
-  
