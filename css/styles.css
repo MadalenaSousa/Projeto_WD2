@@ -151,6 +151,17 @@ footer h2, footer h4 {
     height: auto;
 }
 
+/* PRODUCT DETAIL */
+
+.productdetail-label {
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+/* BREAKPOINTS */
+
 @media (max-width: 768px) {
     .explore-items h1 {
       font-size: 4rem;
@@ -209,14 +220,3 @@ footer h2, footer h4 {
         display: none;
     }
 }
-
-/* PRODUCT DETAIL */
-
-.productdetail-label {
-    text-transform: uppercase;
-    color: gray;
-    font-weight: 600;
-    margin-right: 10px;
-}
-
-/* BREAKPOINTS */
