@@ -104,6 +104,10 @@ nav a:hover {
     color: black;
 }
 
+.close-menu-icon {
+    display: none;
+}
+
 /* FOOTER */
 
 footer {
@@ -152,10 +156,6 @@ footer h2, footer h4 {
       font-size: 4rem;
     }
 
-    .explore-items {
-        text-align: center;
-    }
-
     .title {
         font-size: 6rem;
         line-height: 6rem;
@@ -172,7 +172,42 @@ footer h2, footer h4 {
 
     .py-6 {
         padding: 4rem 1rem;
-       }
+    }
+}
+
+@media (max-width: 980px) {
+    .custom-collapsed-navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center !important;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        background-color: black;
+    }
+    
+    .navbar-collapse a {
+        color: white;
+        font-size: 4rem;
+    }
+    
+    .close-menu-icon {
+        background-color: transparent;
+        border: none;
+        display: inline-block;
+    }
+
+    .explore-items {
+        text-align: center;
+        width: 100%;
+    }
+
+    .smallscreen-displaynone {
+        display: none;
+    }
 }
 
 /* PRODUCT DETAIL */
@@ -185,11 +220,3 @@ footer h2, footer h4 {
 }
 
 /* BREAKPOINTS */
-
-@media (max-width: 1330px) {
-
-    .smallscreen-displaynone {
-        display: none;
-    }
-
-}
