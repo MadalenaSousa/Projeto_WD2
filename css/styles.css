@@ -66,16 +66,16 @@ a:hover {
     background-color: #F3F1EE;
 }
 
-@media (min-width: 1330px) {
-    section {
-        padding: 120px 240px;
-    }
-
-    header {
-        padding: 35px 240px;
-    }
+.py-6 {
+ padding: 8rem 0;
 }
-  
+
+footer input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
 
 /* HEADER */
 
@@ -169,6 +169,10 @@ footer h2, footer h4 {
     .subsubtitle {
         font-size: 2rem;
     }
+
+    .py-6 {
+        padding: 4rem 1rem;
+       }
 }
 
 /* PRODUCT DETAIL */
