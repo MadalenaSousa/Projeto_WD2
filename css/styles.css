@@ -18,6 +18,10 @@ body {
     font-family: Mulish, Helvetica, sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Freight, 'Times New Roman', Times, serif;
 }
@@ -38,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .title {
     font-size: 8rem;
+    line-height: 8rem;
 }
 
 .subtitle {
@@ -55,6 +60,10 @@ a {
 
 a:hover {
     color: inherit;
+}
+
+.beige-section {
+    background-color: #F3F1EE;
 }
 
 @media (min-width: 1330px) {
@@ -100,13 +109,13 @@ nav a:hover {
 footer {
     background-color: black;
     color: white;
-    padding: 65px 80px;
+    padding: 5rem 5rem 2rem 5rem;
     display: flex;
-    gap: 80px;
 }
 
 .footer-pages {
     display: flex;
+    max-width: 1000px;
 }
 
 footer h2, footer h4 {
@@ -145,6 +154,20 @@ footer h2, footer h4 {
 
     .explore-items {
         text-align: center;
+    }
+
+    .title {
+        font-size: 6rem;
+        line-height: 6rem;
+        text-align: center;
+    }
+    
+    .subtitle {
+        font-size: 4rem;
+    }
+    
+    .subsubtitle {
+        font-size: 2rem;
     }
 }
 
