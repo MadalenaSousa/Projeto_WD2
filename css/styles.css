@@ -84,7 +84,8 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    position: sticky;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
