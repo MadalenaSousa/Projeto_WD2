@@ -77,6 +77,10 @@ footer input {
     color: white;
 }
 
+.top-section-padding {
+    padding-top: 10rem;
+}
+
 /* HEADER */
 
 header {
@@ -184,6 +188,18 @@ footer h2, footer h4 {
 
     .py-6 {
         padding: 4rem 1rem;
+    }
+
+    .top-section-padding {
+        padding-top: 6rem;
+    }
+
+    .mobileonly-top-section-padding {
+        padding-top: 6rem;
+    }
+
+    header {
+        padding: 0 1rem;
     }
 }
 
