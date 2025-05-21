@@ -133,10 +133,6 @@ footer h2, footer h4 {
 
 /* HOME */
 
-.initial-home-imagetext {
-    max-width: 65vw;
-}
-
 .beige-section {
     background-color: #F3F1EE;
 }
@@ -200,6 +196,10 @@ footer h2, footer h4 {
 
     header {
         padding: 0 1rem;
+    }
+
+    .display-5 {
+        text-align: center;
     }
 }
 
