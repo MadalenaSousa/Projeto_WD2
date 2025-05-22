@@ -1,0 +1,166 @@
+[
+    {
+        "path": "res/images/home1.png",
+        "image_type": "images"
+    },
+    {
+        "path": "res/images/home2.png",
+        "image_type": "images"
+    },
+    {
+        "path": "res/images/home3.png",
+        "image_type": "images"
+    },
+    {
+        "path": "res/images/home4.png",
+        "image_type": "images"
+    },
+    {
+        "path": "res/images/home5.png",
+        "image_type": "images"
+    },
+    {
+        "path": "res/images/home6.png",
+        "image_type": "images"
+    },
+    {
+        "path": "res/press/1.png",
+        "image_type": "press"
+    },
+    {
+        "path": "res/press/2.png",
+        "image_type": "press"
+    },
+    {
+        "path": "res/press/3.png",
+        "image_type": "press"
+    },
+    {
+        "path": "res/press/4.png",
+        "image_type": "press"
+    },
+    {
+        "path": "res/press/5.png",
+        "image_type": "press"
+    },
+    {
+        "path": "res/pressdetail/1.png",
+        "image_type": "pressdetail"
+    },
+    {
+        "path": "res/pressdetail/2.png",
+        "image_type": "pressdetail"
+    },
+    {
+        "path": "res/pressdetail/3.png",
+        "image_type": "pressdetail"
+    },
+    {
+        "path": "res/pressdetail/4.png",
+        "image_type": "pressdetail"
+    },
+    {
+        "path": "res/pressdetail/5.png",
+        "image_type": "pressdetail"
+    },
+    {
+        "path": "res/productdetail/detail1.png",
+        "image_type": "productdetail"
+    },
+    {
+        "path": "res/productdetail/detail2.png",
+        "image_type": "productdetail"
+    },
+    {
+        "path": "res/productdetail/detail3.png",
+        "image_type": "productdetail"
+    },
+    {
+        "path": "res/productdetail/detail4.png",
+        "image_type": "productdetail"
+    },
+    {
+        "path": "res/products/product1.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/product2.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/product3.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage1.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage10.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage11.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage12.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage2.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage3.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage4.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage5.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage6.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage7.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage8.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/products/productpage9.png",
+        "image_type": "products"
+    },
+    {
+        "path": "res/about/1.png",
+        "image_type": "about"
+    },
+    {
+        "path": "res/about/2.png",
+        "image_type": "about"
+    },
+    {
+        "path": "res/about/3.png",
+        "image_type": "about"
+    },
+    {
+        "path": "res/about/4.png",
+        "image_type": "about"
+    },
+    {
+        "path": "res/about/5.png",
+        "image_type": "about"
+    },
+    {
+        "path": "res/contacts/1.png",
+        "image_type": "contacts"
+    }
+]
