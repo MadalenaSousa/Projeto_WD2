@@ -28,7 +28,7 @@
             <img src="res/burger_menu_close.svg" alt="Menu">
             </button>  
             <a href="products.html">Products</a>
-            <a href="about.html">Our Story</a>
+            <a href="about.html" class="menu-selected">Our Story</a>
             <a href="press.html">Press</a>
             <a href="contacts.html">Contacts</a>
         </nav>
@@ -44,9 +44,6 @@
                 </div>
                 <div class="col-lg-7">
                     <img src="res/about/1.png" alt="Greek columns" width="100%">
-                    <!--svg height="140" width="500">
-                        <ellipse cx="120" cy="80" rx="100" ry="50" style="fill:transparent;stroke:black;stroke-width:1" />  
-                    </svg-->
                 </div>
             </div>
         </section>
@@ -96,20 +93,18 @@
             <h2>We promise to continue improving our practises across all aspects of our business to ensure that the brand we cherish and adore lasts the test of time.</h3>
         </section>
 
-        <section class="grid container py-6">
-            <div class="mb-5 row smallscreen-displaynone">
-                <h3>More About Us</h3>
+        <section class="container py-6">
+            <div class="row align-items-center">
+              <div class="col-md-6 explore-items">
+                <a href="products.html"><h1>Planet</h1></a>
+                <a href="products.html"><h1>Testemonials</h1></a>
+                <a href="products.html"><h1>Features</h1></a>   
+              </div>
+              <div class="col-md-6 text-center smallscreen-displaynone">
+                <img src="res/home/rings.png" alt="Explore" class="explore-img">
+              </div>
             </div>
-
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5 explore-items">
-                    <h1>Planet</h1>
-                    <h1>Testemonials</h1>
-                    <h1>Features</h1>
-                </div>
-                <img class="col-lg-5 smallscreen-displaynone" src="res/about/5.png" alt="Calm beach" width="100%">
-            </div>
-        </section>
+          </section>
     </main>
 
     <!-- Footer-->
@@ -120,7 +115,7 @@
                 <input type="text" placeholder="Enter your email">
                 <button class="btn">Sign To Newsletter</button>
             </div>
-            <div>
+            <div class="social-media">
                 <img src="res/icons/facebook.png" alt="Facebook Icon" class="me-3" style="width:30px">
                 <img src="res/icons/instagram.png" alt="Instagram Icon" class="me-3" style="width:30px">
                 <img src="res/icons/pinterest.png" alt="Pinterest Icon" style="width:30px">
@@ -129,17 +124,15 @@
         <div class="footer-pages flex-fill flex-wrap mb-5">
             <div class="flex-fill mb-5">
                 <h4>Information</h4>
-                <div>Search</div>
-                <div>Contact</div>
-                <div>Stocklist</div>
-                <div>Jewelry Care</div>
-                <div>The Replating Service</div>
+                <div><a href="contacts.html">Contacts</a></div>
+                <div><a href="about.html">Stocklist</a></div>
+                <div><a href="about.html">Jewelry Care</a></div>
             </div>
             <div class="flex-fill mb-5">
                 <h4>About</h4>
-                <div>Our Tale</div>
-                <div>People & Planet First</div>
-                <div>Features</div>
+                <div><a href="about.html">Our Story</a></div>
+                <div><a href="about.html">People & Planet First</a></div>
+                <div><a href="press.html">Features</a></div>
             </div>
             <div class="flex-fill mb-5">
                 <h4>Policies</h4>
@@ -154,5 +147,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/mainscript.js"></script>
 </body>
 </html>

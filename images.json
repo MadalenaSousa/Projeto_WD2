@@ -187,7 +187,21 @@
         {
             "path": "res/about/5.png",
             "image_type": "about"
-        }
+        },
+        [
+            {
+                "path": "res/about/exploreitems/1.png",
+                "image_type": "exploreitems"
+            },
+            {
+                "path": "res/about/exploreitems/2.png",
+                "image_type": "exploreitems"
+            },
+            {
+                "path": "res/about/exploreitems/3.png",
+                "image_type": "exploreitems"
+            }       
+        ]
     ],
     [
         {
