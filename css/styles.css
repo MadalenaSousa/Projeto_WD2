@@ -81,6 +81,10 @@ a:hover {
  padding: 8rem 0;
 }
 
+.pb-6 {
+    padding: 0 0 8rem 0;
+   }
+
 footer input {
     background-color: transparent;
     border: none;
@@ -220,7 +224,7 @@ footer a:hover {
 /*Carousel Testing*/
 ul {
     width: 100%;
-    height: 750px;
+    height: 780px;
   
     overflow-x: hidden;
     overflow-y: hidden;
