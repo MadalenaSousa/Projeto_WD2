@@ -217,6 +217,76 @@ footer a:hover {
     cursor: pointer;
 }
 
+/*Carousel Testing*/
+ul {
+    width: 100%;
+    height: 750px;
+  
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+  
+    columns: 1;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+    anchor-name: --myCarousel;
+  }
+
+li {
+    list-style-type: none;
+  
+    display: inline-block;
+    height: 100%;
+    margin-right: 20px;
+  
+    text-align: left;
+}
+
+ul::scroll-button(*) {
+    border: 0;
+    font-size: 2rem;
+    background: none;
+    color: black;
+    cursor: pointer;
+}
+
+ul::scroll-button(left) {
+    content: "\27F5";
+    bottom: calc(anchor(bottom) - 50px);
+}
+  
+ul::scroll-button(right) {
+    content: "\27F6";
+    left: calc(anchor(right) - 50px);
+    bottom: calc(anchor(bottom) - 50px);
+}
+
+ul::scroll-button(*) {
+    position: absolute;
+    position-anchor: --myCarousel;
+}
+
+ul::column {
+    scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+    color: rgb(0 0 0 / 0.8);
+    cursor: pointer;
+}
+
+ul::scroll-button(*):hover, ul::scroll-button(*):focus {
+color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):disabled {
+    color: rgb(0 0 0 / 0.2);
+    cursor: unset;
+}
+
+
 .hero-img, .collection-img, .popular-img, .explore-img {
     max-width: 100%;
     height: auto;
@@ -232,6 +302,18 @@ footer a:hover {
 }
 
 /* BREAKPOINTS */
+
+@media (max-width: 400px) {
+    ul {
+        height: 700px;
+    }
+}
+
+@media (max-width: 375px) {
+    ul {
+        height: 650px;
+    }
+}
 
 @media (max-width: 768px) {
     .explore-items h1 {
@@ -305,5 +387,9 @@ footer a:hover {
 
     .smallscreen-displaynone {
         display: none;
+    }
+
+    li {
+        margin-right: 20px;
     }
 }
